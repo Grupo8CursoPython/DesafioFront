@@ -250,16 +250,6 @@ nav ul li:hover {
   padding: 20px;
 }  
 
-.testimonial-container {
-  background-color: #476ce4;
-  color: #fff;
-  border-radius: 15px;
-  margin: 20px auto;
-  padding: 50px 80px;
-  max-width: 768px;
-  position: relative;
-}
-
 .fa-quote {
   color: rgba(255, 255, 255, 0.3);
   font-size: 28px;
@@ -320,16 +310,6 @@ nav ul li:hover {
   }
 }
 
-@media (max-width: 650px) {
-  .testimonial-container {
-    padding: 20px 30px;
-  }
-
-  .fa-quote {
-    display: none;
-  }
-}
-
 
 /* Four columns side by side */
 .column {
@@ -368,6 +348,7 @@ nav ul li:hover {
   content: "";
   clear: both;
   display: table;
+  justify-content: center;
 }
 
 .title {
