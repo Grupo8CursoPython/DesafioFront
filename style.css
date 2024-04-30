@@ -320,7 +320,7 @@ nav ul li:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .testimonial-container {
     padding: 20px 30px;
   }
@@ -347,7 +347,7 @@ nav ul li:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .productos{
       display:none;
   }
